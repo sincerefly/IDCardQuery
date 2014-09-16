@@ -3,6 +3,8 @@ IDCardQuery
 
 输入身份证号码，判断18位身份证号码是否合法，并查询信息(性别，年龄，所在地)
 
+![](http://ishell.me/wp-content/uploads/2014/07/pythonIDcard.png)
+
 ####简介
 不同版本的身份证信息查询小程序，带合法性检验
 
