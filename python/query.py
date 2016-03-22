@@ -15,17 +15,15 @@ tmpsum = int(str[0])*7 + int(str[1])*9 + int(str[2])*10 + int(str[3])*5 + int(st
         + int(str[14])*8 + int(str[15])*4 + int(str[16])*2;
  
 remainder = tmpsum % 11
- 
-sex = int(str[16]) % 2
-if sex == 1:
-    sex = '男'
-else :
-    sex = '女'
- 
+
 maptable = {0: '1', 1: '0', 2: 'x', 3: '9', 4: '8', 5: '7', 6: '6', 7: '5', 8: '4', 9: '3', 10: '2'}
 if maptable[remainder] == str[17]:
     print('<身份证合法>')
+
+    sex = int(str[16]) % 2
+    sex = '男' if sex == 1 else '女'
     print('性别：' + sex)
+
     print('出生日期:' + birth)
     print('归属地:' + cname)
 else :
