@@ -1,6 +1,10 @@
+#!/bin/env python
+# -*- coding: utf-8 -*-
+
 '''
 生成用于身份证查询的数据文件data.pkl
 '''
+
 import pickle
 
 city = {
