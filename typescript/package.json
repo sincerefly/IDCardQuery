@@ -1,0 +1,14 @@
+{
+  "name": "idcard",
+  "version": "0.1.0",
+  "description": "中国大陆 18 位居民身份证号码的校验与信息解析",
+  "type": "module",
+  "scripts": {
+    "test": "node --test src/idcard.test.ts",
+    "query": "node src/query.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "typescript": "^5"
+  }
+}

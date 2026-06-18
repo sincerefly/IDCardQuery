@@ -1,14 +1,14 @@
 <!doctype html>
-<html>
+<html lang="zh-CN">
   <head>
     <meta charset="utf-8">
-    <title>Query Idcard</title>
-    <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
-    <script src="query.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>身份证查询</title>
+    <script src="query.js" defer></script>
   </head>
   <body>
-    Input: <input id="idcard" type="text">
-    <button onclick="query();">Query</button>
+    输入: <input id="idcard" type="text" placeholder="18 位身份证号码">
+    <button onclick="query();">查询</button>
     <div>
       <div><span id="valid"></span></div>
       <div>性别：<span id="sex"></span></div>

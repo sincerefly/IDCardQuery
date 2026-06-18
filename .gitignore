@@ -1,2 +1,18 @@
 .idea
 *.pkl
+
+# C build artifacts
+c/query
+c/test_idcard
+*.o
+
+# Rust
+rust/target/
+
+# Node / TypeScript
+node_modules/
+typescript/dist/
+
+# Python
+__pycache__/
+.pytest_cache/
